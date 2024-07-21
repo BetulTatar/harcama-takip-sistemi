@@ -1,0 +1,2 @@
+# harcama-takip-sistemi
+innovabilisiminstallfuturehackathonharcamatakipuygulamasi
