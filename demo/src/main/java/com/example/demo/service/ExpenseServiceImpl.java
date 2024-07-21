@@ -1,5 +1,6 @@
 package com.example.demo.service;
 
+import com.example.demo.exeptions.ExpenseNotFoundException;
 import com.example.demo.models.Expense;
 import com.example.demo.models.User;
 import com.example.demo.repository.ExpenseRepository;
@@ -20,7 +21,7 @@ public class ExpenseServiceImpl implements ExpenseService {
 
     @Override
     public Expense getExpenseId(Long expenseId) {
-        return repository.findById(expenseId).orElse(null);
+        return repository.findById(expenseId).orElseThrow(() -> new ExpenseNotFoundException("Harcama Bulunamadı"));
     }
 
     @Override
