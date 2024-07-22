@@ -2,6 +2,7 @@ package com.example.demo.controller;
 
 import com.example.demo.models.Expense;
 import com.example.demo.service.ExpenseService;
+
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
@@ -14,6 +15,7 @@ import java.util.List;
 public class ExpenseController {
     private final ExpenseService service;
     @GetMapping("/get")
+
     public List<Expense> getAll(){
         return service.getAll();
 
