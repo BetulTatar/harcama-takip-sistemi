@@ -4,7 +4,7 @@ import com.example.demo.service.ExpenseAggService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
-
+//ScheduledTasks sınıfı, belirli zaman aralıklarında otomatik olarak çalışacak görevleri içerir.
 @Component
 public class ScheduledTasks {
     @Autowired
