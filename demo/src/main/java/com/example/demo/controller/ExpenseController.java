@@ -1,5 +1,5 @@
 package com.example.demo.controller;
-
+//Bu sınıf, harcamalarla ilgili HTTP isteklerini işlemek için kullanılıyor. REST API için endpoint'ler sağlar.
 import com.example.demo.models.Expense;
 import com.example.demo.service.ExpenseService;
 
@@ -29,7 +29,7 @@ public class ExpenseController {
         return service.getTotalByUserId(userId);
     }
     @DeleteMapping("/{expenseId}")
-    public void deletById(@PathVariable("expenceId")Long expenseId){
+    public void deleteById(@PathVariable("expenceId")Long expenseId){
         service.deleteById(expenseId);
     }
     @PostMapping("/create")

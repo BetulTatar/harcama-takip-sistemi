@@ -1,4 +1,5 @@
 package com.example.demo.controller;
+//Bu sınıf, kullanıcılarla ilgili HTTP isteklerini işlemek için kullanılıyor. REST API için endpoint'ler sağlar.
 
 import com.example.demo.models.Expense;
 import com.example.demo.models.User;

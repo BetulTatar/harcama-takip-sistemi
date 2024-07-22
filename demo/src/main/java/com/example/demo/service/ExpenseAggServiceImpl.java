@@ -6,7 +6,7 @@ import com.example.demo.repository.ExpenseRepository;
 import com.example.demo.repository.UserRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
-
+//Her metod, kullanıcı adını ve hesaplanan toplam harcama miktarını konsola yazdırır.
 import java.time.LocalDate;
 import java.time.temporal.TemporalAdjusters;
 import java.util.List;

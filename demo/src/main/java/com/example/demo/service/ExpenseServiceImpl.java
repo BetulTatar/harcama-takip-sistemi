@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
-
+//ExpenseServiceImpl sınıfı, harcama ile ilgili iş mantığını uygular ve CRUD (Create, Read, Update, Delete) işlemlerini yönetir
 @Service
 @AllArgsConstructor
 public class ExpenseServiceImpl implements ExpenseService {
